@@ -11,7 +11,7 @@ A better Terraform solution to create an AWS EMR cluster, including:
 Structure
 
 ```
- │
+ ├── modules
  │   ├── emr
  │   │   ├── main.tf
  │   │   ├── outputs.tf
@@ -28,7 +28,6 @@ Structure
  │       └── variables.tf
  ├── README.md
  ├── main.tf
- ├── modules
  ├── outputs.tf
  └── variables.tf
  ```
