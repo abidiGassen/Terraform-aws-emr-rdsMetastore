@@ -36,7 +36,7 @@ Structure:
 This repository is customly made to build an AWS infrastructure that goes with Delta's framework for writing benchmarks to measure Delta's performance
 (https://github.com/delta-io/delta/tree/master/benchmarks):
 
-# reate external Hive Metastore using Amazon RDS
+# Create external Hive Metastore using Amazon RDS
 Create an external Hive Metastore in a MySQL database using Amazon RDS with the following specifications:
 - MySQL 8.0.15 on a `db.m5.large`.
 - General purpose SSDs `gp2`  no Autoscaling storage.
