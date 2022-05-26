@@ -58,6 +58,15 @@ Create an EMR cluster that connects to the external Hive Metastore with the foll
 ## Prepare S3 bucket
 Create a new S3 bucket `default name : benchmarksbucket1919` which is in the same region your EMR cluster `default : Region us-west-2`.
 
+## Terraform VARIABLES :
+region :              default = "us-west-2"
+environment :         default = "terraform-aws-emr"
+cluster_name :        default = "emr-cluster"
+bucket :              default = "benchmarksbucket1919"
+mySQL db name :       default = "mydb"
+mySQL db username:    default = "admin"
+mySQL db password:    default = "adminadmin"
+
 ## Terraform OUTPUTS :
 
 emr_cluster_master_public_dns                                                                                    
