@@ -7,6 +7,9 @@ A better Terraform solution to create an AWS EMR cluster, including:
    - IAM (Roles with AWS Managed Policies)
    - EMR
 
+### Prerequisites
+Create a key pair and download it to your local machine 
+`key pair name : EMR key pair`
 
 Structure:
 
