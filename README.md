@@ -57,7 +57,7 @@ Create a new S3 bucket `default name : benchmarksbucket1919` which is in the sam
 
 # Terraform OUTPUTS :
 
-emr_cluster_master_public_dns = `ec2-54-190-144-151.us-west-2.compute.amazonaws.com`
-rdsmysql_hive_metastore_db_instance_address = `hivemetastore.cbbnoawadxtg.us-west-2.rds.amazonaws.com`
-rds_mysql_hive_metastore_db_instance_name = `hive_metastore`
-s3_bucket_emr_cluster_id = `benchmarksbucket1919`
+emr_cluster_master_public_dns = `ec2-54-190-144-151.us-west-2.compute.amazonaws.com`                                                                                   
+rdsmysql_hive_metastore_db_instance_address = `hivemetastore.cbbnoawadxtg.us-west-2.rds.amazonaws.com`                                                                 
+rds_mysql_hive_metastore_db_instance_name = `hive_metastore`                                                                                                           
+s3_bucket_emr_cluster_id = `benchmarksbucket1919`                                                                                                               
