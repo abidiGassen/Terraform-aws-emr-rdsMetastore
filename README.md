@@ -50,7 +50,7 @@ Create an external Hive Metastore in a MySQL database using Amazon RDS with the 
 Create an EMR cluster that connects to the external Hive Metastore with the following specifications:
 - EMR version `6.5.0` having `Apache Spark 3.1`
 - Master - `i3.2xlarge`
-- Workers - `1 x i3.2xlarge` (or 16 worker if you are not testing by running the 1GB benchmark).
+- Workers - `1 x i3.2xlarge` (or 16 workers if you are not only testing by running the 1GB benchmark).
 - Hive-site configuration to connect to the Hive Metastore.
 - Same region, VPC, subnet as those you will run the EMR cluster. `default : Region us-west-2`
 - No autoscaling, and default EBS storage.
