@@ -74,22 +74,22 @@ rdsmysql_hive_metastore_db_instance_address
 rds_mysql_hive_metastore_db_instance_name                                                                                                            
 s3_bucket_emr_cluster_id                       
 
-### Initalization
+## Initalization
 Before executing your first plan, you need to initialize Terraform:
 
 `$> terraform init`
 
-### Planning
+## Planning
 Terraform allows you to "Plan", which allows you to see what it would change without actually making any changes.
 
 `$> terraform plan` 
 
-### Applying
+## Applying
 Finally, affer initialization, planning, you can apply your changes:
 
 `$> terraform apply`
 
-### Destroying
+## Destroying
 If you want Terraform to clean up anything it made, you can destroy the cluster:
 
 `$> terraform destroy`
